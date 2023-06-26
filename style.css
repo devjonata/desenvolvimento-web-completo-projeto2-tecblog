@@ -13,6 +13,12 @@ body {
 *** formatação layout ***
 */
 
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+}
+
+
 #area-cabecalho {
     background-color: #f7b600;
     padding: 15px;
@@ -22,6 +28,32 @@ body {
 #area-logo, #area-menu {
     padding: 10px;
 }
+
+#area-postagens {
+    background-color: orange;
+    width: 660px;
+    float: left;
+}
+
+#area-lateral {
+    background-color: orange;
+    width: 240px;
+    float: right;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+#rodape {
+    background-color: #CCC;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+}
+
 
 /*
 *** formatação menu ***
